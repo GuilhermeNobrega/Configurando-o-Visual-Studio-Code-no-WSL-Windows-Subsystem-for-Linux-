@@ -1,15 +1,14 @@
-
-# Configurando o Visual Studio Code no WSL (Windows Subsystem for Linux)
+# Configurando o Visual Studio Code no WSL (Windows Subsystem for Linux) 💻
 
 Este tutorial demonstra como configurar o Visual Studio Code (VS Code) para ser executado no Windows Subsystem for Linux (WSL) e criar um link simbólico para facilitar o acesso ao VS Code a partir do terminal.
 
-## Pré-requisitos
+## Pré-requisitos 🛠️
 
 - Ter o WSL instalado no seu sistema Windows.
 - Ter o Visual Studio Code instalado no WSL.
 - Instalar a extensão no VS Code: "WSL".
 
-## Passo 1: Criar um Link Simbólico
+## Passo 1: Criar um Link Simbólico 🚀
 
 1. Abra o terminal do WSL.
 
@@ -26,7 +25,7 @@ Este tutorial demonstra como configurar o Visual Studio Code (VS Code) para ser 
     sudo rm /mnt/c/Users/nome_user_path/AppData/Local/Programs/cursor/resources/app/bin/code
     ```
 
-## Passo 2: Verificar o Link Simbólico
+## Passo 2: Verificar o Link Simbólico ✔️
 
 1. Verifique se o link simbólico foi criado corretamente.
 
@@ -51,7 +50,7 @@ Este tutorial demonstra como configurar o Visual Studio Code (VS Code) para ser 
 
     Certifique-se de que o caminho correto foi definido.
 
-## Passo 3: Testar o VS Code
+## Passo 3: Testar o VS Code ▶️
 
 1. Execute o comando `code` para iniciar o Visual Studio Code.
 
@@ -67,7 +66,7 @@ Este tutorial demonstra como configurar o Visual Studio Code (VS Code) para ser 
 
 2. Certifique-se de que o Visual Studio Code é iniciado corretamente.
 
-## Passo 4: Uso Prático
+## Passo 4: Uso Prático 🚀
 
 1. Agora você pode usar o comando `code .` para abrir o VS Code no diretório atual.
 
@@ -75,7 +74,7 @@ Este tutorial demonstra como configurar o Visual Studio Code (VS Code) para ser 
     code .
     ```
 
-## Resolvendo o Erro "No such file or directory"
+## Resolvendo o Erro "No such file or directory" ❌
 
 O erro "No such file or directory" indica que o sistema não consegue encontrar o arquivo ou diretório especificado. Caso isso aconteça, siga os passos abaixo:
 
@@ -83,3 +82,9 @@ O erro "No such file or directory" indica que o sistema não consegue encontrar 
 
 ```bash
 sudo rm /usr/local/bin/code
+
+## Atualizar o Cache do Bash:
+
+    ```bash
+    hash -r
+    ```

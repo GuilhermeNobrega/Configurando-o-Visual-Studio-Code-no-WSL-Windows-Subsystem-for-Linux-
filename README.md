@@ -83,8 +83,9 @@ O erro "No such file or directory" indica que o sistema não consegue encontrar 
 ```bash
 sudo rm /usr/local/bin/code
 
-## Atualizar o Cache do Bash:
+```
+### Atualizar o Cache do Bash
 
-    ```bash
-    hash -r
-    ```
+```bash
+hash -r
+

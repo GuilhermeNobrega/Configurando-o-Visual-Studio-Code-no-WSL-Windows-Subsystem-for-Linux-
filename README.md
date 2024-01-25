@@ -74,7 +74,7 @@ Este tutorial demonstra como configurar o Visual Studio Code (VS Code) para ser 
     code .
     ```
 
-## Resolvendo o Erro "No such file or directory" ❌
+## Resolvendo o Erro "No such file or directory" ou "unable to determine app path from symlink vscode" ❌
 
 O erro "No such file or directory" indica que o sistema não consegue encontrar o arquivo ou diretório especificado. Caso isso aconteça, siga os passos abaixo:
 
